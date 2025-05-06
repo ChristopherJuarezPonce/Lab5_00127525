@@ -49,6 +49,7 @@ int main()
         break;
     default: // This option is for when the user selects a number not allowed in the menu
         cout << "The selected option is invalid" << endl;
+        return 1;
         break;
     }
 
